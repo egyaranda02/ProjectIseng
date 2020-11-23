@@ -16,10 +16,10 @@
             <div class="row">
                 <img src="resources/img/logored.png" alt="Logo Bright" class="logo">
                 <ul class="main-nav">
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Films</a></li>
-                    <li><a href="#">Studies</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a id="Button-films" href="javascript:void()";>Films</a></li>
+                    <li><a id="Button-games" href="#">Games</a></li>
+                    <li><a id="Button-games" href="#">Studies</a></li>
+                    <li><a id="Button-aboutme" href="#">About me</a></li>
                 </ul>
             </div>
         </nav>
@@ -238,7 +238,7 @@
 
     <section class="section-persona">
         <div class="row">
-            <h2>Dota 2</h2>
+            <h2>Persona 5</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
@@ -261,6 +261,126 @@
             </div>
         </div>
     </section>
+    <section class="section-myid">
+        <div class="row">
+            <h2>My Gaming Account</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Steam</h3>
+                        <p class="games-plan">My Most Favorite Platform</p>
+                        <p class="ign-plan">Fio</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="triangle"></ion-icon>Dota 2</li>
+                            <li><ion-icon name="triangle"></ion-icon>Tom Clancy's Rainbow Six® Siege</li>
+                            <li><ion-icon name="triangle"></ion-icon>Yakuza 0</li>
+                            <li><ion-icon name="triangle"></ion-icon>Persona 4</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="https://steamcommunity.com/id/fosterinaction" class="btn btn-full" target="_blank">My Steam Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Origin</h3>
+                        <p class="games-plan">I use this only for Apex Legend</p>
+                        <p class="ign-plan">Fio_IDN</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="triangle"></ion-icon>Apex Legend</li>
+                            <li><ion-icon name="triangle"></ion-icon>The Sims 4</li>
+                            <li>&nbsp</li>
+                            <li>&nbsp</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-full">My Origin Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Facebook</h3>
+                        <p class="games-plan">My Most Active Social Media</p>
+                        <p class="ign-plan">Egy Aranda</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon name="triangle"></ion-icon>Using this for Shitpost</li>
+                            <li><ion-icon name="triangle"></ion-icon>Using this for marketplace</li>
+                            <li><ion-icon name="triangle"></ion-icon>Using this for game communities</li>
+                            <li>&nbsp</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/cielover/" class="btn btn-full" target="_blank">My Facebook Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form">
+        <div class="row">
+            <h2>Give me a feedback!</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Insert your alias here" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Yay or nay?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="radio" name="feedback" id="feedback" checked><ion-icon name="heart"></ion-icon>
+                    <input type="radio" name="feedback" id="feedback"><ion-icon name="heart-dislike"></ion-icon>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Your Feedback</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="message" placeholder="Give us your message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" value="Send!">
+                </div>
+            </div>
+        </form>
+        </div>
+        </form>
+    </section>
+
 
     <section class="section-aboutme">
         <div class="row">
@@ -288,7 +408,9 @@
             </div>
         </div>
     </section>
+    
 
     <script src="https://unpkg.com/ionicons@5.1.0/dist/ionicons.js"></script>
+    
 </body>
 </html>

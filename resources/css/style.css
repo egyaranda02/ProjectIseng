@@ -112,7 +112,8 @@ h2:after{
 
 
 /* ----------Button----------*/
-.btn:link, .btn:visited{
+.btn:link, .btn:visited, 
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -121,27 +122,35 @@ h2:after{
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:link, .btn-full:visited{
+.btn-full:link, 
+.btn-full:visited, 
+input[type=submit]{
     background-color: #99AAB5;
     border: 1px solid #99AAB5;
     color: #ffffff;
     margin-right: 15px;
 }
 
-.btn-ghost:link, .btn-ghost:visited{
+.btn-ghost:link, 
+.btn-ghost:visited{
     border: 1px solid #99AAB5;
     color: #99AAB5;
 }
 
-.btn:hover, .btn:active{
+.btn:hover, 
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #2e3841;
 }
 
-.btn-full:hover, .btn-full:active{
+.btn-full:hover, 
+.btn-full:active{
     border: 1px solid #2e3841;
 }
 
-.btn-ghost:hover, .btn-ghost:active{
+.btn-ghost:hover, 
+.btn-ghost:active{
     border: 1px solid #2e3841;
     color: #ffffff;
 }
@@ -397,12 +406,12 @@ blockquote:before{
     left: -5px;
 }
 
-
 cite{
     font-size: 90%;
     margin-top: 25px;
     display: block;
 }
+
 cite img{
     border-radius: 50%;
     height: 50px;
@@ -410,3 +419,75 @@ cite img{
     line-height: 145%;
     vertical-align: middle;
 }
+
+/*===============================*/
+/*Gaming Platform*/
+/*===============================*/
+
+.section-myid{
+    background-color:  #e2e2e2;
+}
+
+.plan-box{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width 90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.plan-box div:first-child{
+    background-color: #f5f4f4;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.games-plan{
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+.ign-plan{
+    font-size: 150%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+/*===============================*/
+/*Form*/
+/*===============================*/
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+input[type=radio]{
+    margin: 10px 5px 10px 0;
+}
+
+textarea{
+    height: 100px;
+}
+
+*:focus{outline:none;}
